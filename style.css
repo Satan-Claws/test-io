@@ -1,0 +1,80 @@
+.flex-full{
+    background-color: lightblue;
+    flex-direction: column;
+    display:flex;
+    width:100%;
+    height:100vh;
+    align-items:center;
+    justify-content: flex-start;
+    margin: -8px;
+    padding-right: 16px;
+}
+
+.flex-header{
+    background-color: white;
+    flex-direction: row;
+    display: flex;
+    width:100%;
+    height: 50px;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 30px;
+}
+.flex-header-title{
+    background-color: black;
+    flex-direction: row;
+    display: flex;
+    width:30%;
+    max-width:250px;
+    height: 100%;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    font-family: "Roboto";
+
+}
+.flex-header-links-container{
+    background-color: red;
+    flex-direction: row-reverse;
+    display: flex;
+    width:40%;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    font-family: "Roboto";
+}
+.flex-header-links{
+    background-color: green;
+    flex-direction: row-reverse;
+    display: flex;
+    width:25%;
+    height: 100%;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    font-family: "Roboto";
+}
+
+.flex-body{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height:200px;
+    width:100%;
+    background-color:greenyellow;
+    padding-right: 32px;
+    color:  black;
+}
+
+.flex-body-item{
+    display: flex;
+    height: 25%;
+    width: 100%;
+    background-color: orange;
+    padding-right: 32px;
+    color: black;
+    font-size: 20px;
+    align-items: center;
+    justify-content: space-around;
+}
